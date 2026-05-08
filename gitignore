@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Notebook
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and checkpoints (too large for git)
+data/
+checkpoints/
+*.tgz
+*.tar.gz
+*.pth
+*.pt
+*.ckpt
+
+# Outputs
+*.log
+runs/
+wandb/

@@ -1,0 +1,18 @@
+# Core
+torch>=2.0
+torchvision>=0.15
+numpy<2.0
+matplotlib>=3.5
+
+# DINOv2 backbone (loaded via torch.hub from facebookresearch/dinov2)
+# No pip package needed — torch.hub handles it.
+
+# Pix2Vox upstream dependencies
+easydict
+pillow
+scipy
+opencv-python
+
+# Notebook-only (Colab provides these by default; listed for local installs)
+jupyter
+ipykernel
